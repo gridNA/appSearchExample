@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B563EF871DA2975700C4959F /* vegetables.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B563EF861DA2975700C4959F /* vegetables.jpg */; };
+		B563EF891DA2A4DD00C4959F /* VegetablesTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563EF881DA2A4DD00C4959F /* VegetablesTabBarController.swift */; };
+		B59636271D9FFB3500800FED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59636261D9FFB3500800FED /* AppDelegate.swift */; };
+		B59636291D9FFB3500800FED /* VegetablesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59636281D9FFB3500800FED /* VegetablesController.swift */; };
+		B596362B1D9FFB3500800FED /* VegetablesEmptyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596362A1D9FFB3500800FED /* VegetablesEmptyController.swift */; };
+		B596362E1D9FFB3500800FED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B596362C1D9FFB3500800FED /* Main.storyboard */; };
+		B59636301D9FFB3500800FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B596362F1D9FFB3500800FED /* Assets.xcassets */; };
+		B59636331D9FFB3500800FED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59636311D9FFB3500800FED /* LaunchScreen.storyboard */; };
+		B5D78CB21DA02282001AF555 /* Vegetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D78CB11DA02282001AF555 /* Vegetable.swift */; };
+		B5D78CB41DA0316A001AF555 /* VegetableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D78CB31DA0316A001AF555 /* VegetableCell.swift */; };
+		B5D78CB71DA045CB001AF555 /* vegetables.json in Resources */ = {isa = PBXBuildFile; fileRef = B5D78CB61DA045CB001AF555 /* vegetables.json */; };
+		B5D78CB91DA04FFB001AF555 /* VegetableDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D78CB81DA04FFB001AF555 /* VegetableDetailsViewController.swift */; };
+		B5D78CBB1DA05B2C001AF555 /* VegetableJsonPaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D78CBA1DA05B2C001AF555 /* VegetableJsonPaser.swift */; };
+		B5D78CC51DA05F41001AF555 /* basilicum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5D78CBC1DA05F41001AF555 /* basilicum.jpg */; };
+		B5D78CC61DA05F41001AF555 /* cabbage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5D78CBD1DA05F41001AF555 /* cabbage.jpg */; };
+		B5D78CC71DA05F41001AF555 /* cucumber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5D78CBE1DA05F41001AF555 /* cucumber.jpg */; };
+		B5D78CC81DA05F41001AF555 /* onion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5D78CBF1DA05F41001AF555 /* onion.jpg */; };
+		B5D78CC91DA05F41001AF555 /* parsley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5D78CC01DA05F41001AF555 /* parsley.jpg */; };
+		B5D78CCA1DA05F41001AF555 /* patison.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5D78CC11DA05F41001AF555 /* patison.jpg */; };
+		B5D78CCB1DA05F41001AF555 /* potato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5D78CC21DA05F41001AF555 /* potato.jpg */; };
+		B5D78CCC1DA05F41001AF555 /* redish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5D78CC31DA05F41001AF555 /* redish.jpg */; };
+		B5D78CCD1DA05F41001AF555 /* tomato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5D78CC41DA05F41001AF555 /* tomato.jpg */; };
+		B5D78CD51DA06B3E001AF555 /* IndexRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D78CD41DA06B3E001AF555 /* IndexRequestHandler.swift */; };
+		B5D78CDA1DA06B3E001AF555 /* vegetableSearchExtention.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B5D78CD21DA06B3E001AF555 /* vegetableSearchExtention.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5D78CD71DA06B3E001AF555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B596361B1D9FFB3500800FED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5D78CD11DA06B3E001AF555;
+			remoteInfo = vegetableSearchExtention;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5D78CD91DA06B3E001AF555 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B5D78CDA1DA06B3E001AF555 /* vegetableSearchExtention.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B563EF861DA2975700C4959F /* vegetables.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetables.jpg; sourceTree = "<group>"; };
+		B563EF881DA2A4DD00C4959F /* VegetablesTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VegetablesTabBarController.swift; sourceTree = "<group>"; };
+		B59636231D9FFB3500800FED /* appSearchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appSearchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59636261D9FFB3500800FED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B59636281D9FFB3500800FED /* VegetablesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetablesController.swift; sourceTree = "<group>"; };
+		B596362A1D9FFB3500800FED /* VegetablesEmptyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetablesEmptyController.swift; sourceTree = "<group>"; };
+		B596362D1D9FFB3500800FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B596362F1D9FFB3500800FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B59636321D9FFB3500800FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B59636341D9FFB3600800FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D78CB11DA02282001AF555 /* Vegetable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vegetable.swift; sourceTree = "<group>"; };
+		B5D78CB31DA0316A001AF555 /* VegetableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VegetableCell.swift; sourceTree = "<group>"; };
+		B5D78CB61DA045CB001AF555 /* vegetables.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vegetables.json; sourceTree = "<group>"; };
+		B5D78CB81DA04FFB001AF555 /* VegetableDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VegetableDetailsViewController.swift; path = ../VegetableDetailsViewController.swift; sourceTree = "<group>"; };
+		B5D78CBA1DA05B2C001AF555 /* VegetableJsonPaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VegetableJsonPaser.swift; sourceTree = "<group>"; };
+		B5D78CBC1DA05F41001AF555 /* basilicum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = basilicum.jpg; sourceTree = "<group>"; };
+		B5D78CBD1DA05F41001AF555 /* cabbage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cabbage.jpg; sourceTree = "<group>"; };
+		B5D78CBE1DA05F41001AF555 /* cucumber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cucumber.jpg; sourceTree = "<group>"; };
+		B5D78CBF1DA05F41001AF555 /* onion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onion.jpg; sourceTree = "<group>"; };
+		B5D78CC01DA05F41001AF555 /* parsley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parsley.jpg; sourceTree = "<group>"; };
+		B5D78CC11DA05F41001AF555 /* patison.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = patison.jpg; sourceTree = "<group>"; };
+		B5D78CC21DA05F41001AF555 /* potato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potato.jpg; sourceTree = "<group>"; };
+		B5D78CC31DA05F41001AF555 /* redish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redish.jpg; sourceTree = "<group>"; };
+		B5D78CC41DA05F41001AF555 /* tomato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomato.jpg; sourceTree = "<group>"; };
+		B5D78CD21DA06B3E001AF555 /* vegetableSearchExtention.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = vegetableSearchExtention.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D78CD41DA06B3E001AF555 /* IndexRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexRequestHandler.swift; sourceTree = "<group>"; };
+		B5D78CD61DA06B3E001AF555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B59636201D9FFB3500800FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D78CCF1DA06B3E001AF555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B596361A1D9FFB3500800FED = {
+			isa = PBXGroup;
+			children = (
+				B59636251D9FFB3500800FED /* appSearchDemo */,
+				B5D78CD31DA06B3E001AF555 /* vegetableSearchExtention */,
+				B59636241D9FFB3500800FED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B59636241D9FFB3500800FED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B59636231D9FFB3500800FED /* appSearchDemo.app */,
+				B5D78CD21DA06B3E001AF555 /* vegetableSearchExtention.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B59636251D9FFB3500800FED /* appSearchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B596363A1D9FFE2F00800FED /* resources */,
+				B59636261D9FFB3500800FED /* AppDelegate.swift */,
+				B563EF881DA2A4DD00C4959F /* VegetablesTabBarController.swift */,
+				B59636281D9FFB3500800FED /* VegetablesController.swift */,
+				B5D78CB81DA04FFB001AF555 /* VegetableDetailsViewController.swift */,
+				B596362A1D9FFB3500800FED /* VegetablesEmptyController.swift */,
+				B596362C1D9FFB3500800FED /* Main.storyboard */,
+				B596362F1D9FFB3500800FED /* Assets.xcassets */,
+				B59636311D9FFB3500800FED /* LaunchScreen.storyboard */,
+				B59636341D9FFB3600800FED /* Info.plist */,
+				B5D78CB11DA02282001AF555 /* Vegetable.swift */,
+				B5D78CB31DA0316A001AF555 /* VegetableCell.swift */,
+				B5D78CBA1DA05B2C001AF555 /* VegetableJsonPaser.swift */,
+			);
+			path = appSearchDemo;
+			sourceTree = "<group>";
+		};
+		B596363A1D9FFE2F00800FED /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				B563EF861DA2975700C4959F /* vegetables.jpg */,
+				B5D78CBC1DA05F41001AF555 /* basilicum.jpg */,
+				B5D78CBD1DA05F41001AF555 /* cabbage.jpg */,
+				B5D78CBE1DA05F41001AF555 /* cucumber.jpg */,
+				B5D78CBF1DA05F41001AF555 /* onion.jpg */,
+				B5D78CC01DA05F41001AF555 /* parsley.jpg */,
+				B5D78CC11DA05F41001AF555 /* patison.jpg */,
+				B5D78CC21DA05F41001AF555 /* potato.jpg */,
+				B5D78CC31DA05F41001AF555 /* redish.jpg */,
+				B5D78CC41DA05F41001AF555 /* tomato.jpg */,
+				B5D78CB61DA045CB001AF555 /* vegetables.json */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		B5D78CD31DA06B3E001AF555 /* vegetableSearchExtention */ = {
+			isa = PBXGroup;
+			children = (
+				B5D78CD41DA06B3E001AF555 /* IndexRequestHandler.swift */,
+				B5D78CD61DA06B3E001AF555 /* Info.plist */,
+			);
+			path = vegetableSearchExtention;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B59636221D9FFB3500800FED /* appSearchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59636371D9FFB3600800FED /* Build configuration list for PBXNativeTarget "appSearchDemo" */;
+			buildPhases = (
+				B596361F1D9FFB3500800FED /* Sources */,
+				B59636201D9FFB3500800FED /* Frameworks */,
+				B59636211D9FFB3500800FED /* Resources */,
+				B5D78CD91DA06B3E001AF555 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5D78CD81DA06B3E001AF555 /* PBXTargetDependency */,
+			);
+			name = appSearchDemo;
+			productName = appSearchDemo;
+			productReference = B59636231D9FFB3500800FED /* appSearchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5D78CD11DA06B3E001AF555 /* vegetableSearchExtention */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D78CDB1DA06B3E001AF555 /* Build configuration list for PBXNativeTarget "vegetableSearchExtention" */;
+			buildPhases = (
+				B5D78CCE1DA06B3E001AF555 /* Sources */,
+				B5D78CCF1DA06B3E001AF555 /* Frameworks */,
+				B5D78CD01DA06B3E001AF555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vegetableSearchExtention;
+			productName = vegetableSearchExtention;
+			productReference = B5D78CD21DA06B3E001AF555 /* vegetableSearchExtention.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B596361B1D9FFB3500800FED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kate Gridina";
+				TargetAttributes = {
+					B59636221D9FFB3500800FED = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					B5D78CD11DA06B3E001AF555 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B596361E1D9FFB3500800FED /* Build configuration list for PBXProject "appSearchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B596361A1D9FFB3500800FED;
+			productRefGroup = B59636241D9FFB3500800FED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B59636221D9FFB3500800FED /* appSearchDemo */,
+				B5D78CD11DA06B3E001AF555 /* vegetableSearchExtention */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B59636211D9FFB3500800FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D78CCC1DA05F41001AF555 /* redish.jpg in Resources */,
+				B563EF871DA2975700C4959F /* vegetables.jpg in Resources */,
+				B59636331D9FFB3500800FED /* LaunchScreen.storyboard in Resources */,
+				B5D78CC51DA05F41001AF555 /* basilicum.jpg in Resources */,
+				B5D78CB71DA045CB001AF555 /* vegetables.json in Resources */,
+				B5D78CC81DA05F41001AF555 /* onion.jpg in Resources */,
+				B59636301D9FFB3500800FED /* Assets.xcassets in Resources */,
+				B5D78CC91DA05F41001AF555 /* parsley.jpg in Resources */,
+				B5D78CCB1DA05F41001AF555 /* potato.jpg in Resources */,
+				B596362E1D9FFB3500800FED /* Main.storyboard in Resources */,
+				B5D78CC71DA05F41001AF555 /* cucumber.jpg in Resources */,
+				B5D78CCD1DA05F41001AF555 /* tomato.jpg in Resources */,
+				B5D78CCA1DA05F41001AF555 /* patison.jpg in Resources */,
+				B5D78CC61DA05F41001AF555 /* cabbage.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D78CD01DA06B3E001AF555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B596361F1D9FFB3500800FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B596362B1D9FFB3500800FED /* VegetablesEmptyController.swift in Sources */,
+				B5D78CBB1DA05B2C001AF555 /* VegetableJsonPaser.swift in Sources */,
+				B5D78CB21DA02282001AF555 /* Vegetable.swift in Sources */,
+				B59636271D9FFB3500800FED /* AppDelegate.swift in Sources */,
+				B5D78CB91DA04FFB001AF555 /* VegetableDetailsViewController.swift in Sources */,
+				B59636291D9FFB3500800FED /* VegetablesController.swift in Sources */,
+				B5D78CB41DA0316A001AF555 /* VegetableCell.swift in Sources */,
+				B563EF891DA2A4DD00C4959F /* VegetablesTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D78CCE1DA06B3E001AF555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D78CD51DA06B3E001AF555 /* IndexRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5D78CD81DA06B3E001AF555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5D78CD11DA06B3E001AF555 /* vegetableSearchExtention */;
+			targetProxy = B5D78CD71DA06B3E001AF555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B596362C1D9FFB3500800FED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B596362D1D9FFB3500800FED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B59636311D9FFB3500800FED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B59636321D9FFB3500800FED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B59636351D9FFB3600800FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B59636361D9FFB3600800FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B59636381D9FFB3600800FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = appSearchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kategridina.appSearchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B59636391D9FFB3600800FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = appSearchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kategridina.appSearchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B5D78CDC1DA06B3E001AF555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = vegetableSearchExtention/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kategridina.appSearchDemo.vegetableSearchExtention;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B5D78CDD1DA06B3E001AF555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = vegetableSearchExtention/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kategridina.appSearchDemo.vegetableSearchExtention;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B596361E1D9FFB3500800FED /* Build configuration list for PBXProject "appSearchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59636351D9FFB3600800FED /* Debug */,
+				B59636361D9FFB3600800FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59636371D9FFB3600800FED /* Build configuration list for PBXNativeTarget "appSearchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59636381D9FFB3600800FED /* Debug */,
+				B59636391D9FFB3600800FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D78CDB1DA06B3E001AF555 /* Build configuration list for PBXNativeTarget "vegetableSearchExtention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D78CDC1DA06B3E001AF555 /* Debug */,
+				B5D78CDD1DA06B3E001AF555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B596361B1D9FFB3500800FED /* Project object */;
+}

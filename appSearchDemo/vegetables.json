@@ -1,0 +1,65 @@
+[
+{
+"id":"tomato_1",
+"imageName":"Tomato",
+"description":"Best Tomato",
+"keywords":"tomato, red vegetable, ketchup",
+"image":"tomato"
+},
+{
+"id":"onion_2",
+"imageName":"Onion",
+"description":"Best Onion",
+"keywords":"onion, cry, green vegetable, smell",
+"image":"onion"
+},
+{
+"id":"parsley_3",
+"imageName":"Parsley",
+"description":"Best Parsley",
+"keywords":"parsley, health, green vegetable, best for salad, grass, herb",
+"image":"parsley"
+},
+{
+"id":"potato_4",
+"imageName":"Potato",
+"description":"Best Potato",
+"keywords":"potato, chips, fries, starch",
+"image":"potato"
+},
+{
+"id":"patison_5",
+"imageName":"Patison",
+"description":"Best Patison",
+"keywords":"patison, yellow vegetable, close to pumpkin, healthy vegetable",
+"image":"patison"
+},
+{
+"id":"basilicum_6",
+"imageName":"Basilicum",
+"description":"Best Basilicum",
+"keywords":"basilicum, grass, greek salad, green vegetale, grass, herb",
+"image":"basilicum"
+},
+{
+"id":"cabbage_7",
+"imageName":"Cabbage",
+"description":"Best Cabbage",
+"keywords":"cabbage, green vegetable, salad, sauerkraut",
+"image":"cabbage"
+},
+{
+"id":"cucumber_8",
+"imageName":"Cucumber",
+"description":"Best Cucumber",
+"keywords":"cucumber, green vegetable, salad, fresh, tastless",
+"image":"cucumber.jpg"
+},
+{
+"id":"redish_9",
+"imageName":"Redish",
+"description":"Best Redish",
+"keywords":"redish, red vegetable, pink vegetable",
+"image":"redish.jpg"
+}
+]
