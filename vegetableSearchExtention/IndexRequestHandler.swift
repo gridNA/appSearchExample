@@ -4,8 +4,6 @@
 
 import CoreSpotlight
 
-// NOTE: never tested, not ennough information how to trigger these methods
-
 class IndexRequestHandler: CSIndexExtensionRequestHandler {
 
     override func searchableIndex(_ searchableIndex: CSSearchableIndex, reindexAllSearchableItemsWithAcknowledgementHandler acknowledgementHandler: @escaping () -> Void) {

@@ -16,7 +16,7 @@ class VegetableDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController?.navigationItem.title = "Vegetable Details"
+        title = "Vegetable Details"
         createUserActivity()
     }
     
@@ -39,11 +39,11 @@ class VegetableDetailsViewController: UIViewController {
         let attributes = CSSearchableItemAttributeSet()
         attributes.thumbnailURL = Bundle.main.url(forResource: vegi.image, withExtension: "jpg")
         if #available(iOS 10.0, *) {
-            attributes.weakRelatedUniqueIdentifier = vegi.id
+            // NOTE: use thid in case of weak binding
+            //attributes.weakRelatedUniqueIdentifier = vegi.id
             attributes.domainIdentifier = vegi.id // is needed to remove Action when it is not used
-        } else {
-            attributes.relatedUniqueIdentifier = vegi.id
         }
+        attributes.relatedUniqueIdentifier = vegi.id
         vegetableDetailsActivity?.contentAttributeSet = attributes
         
         //vegetableDetailsActivity?.delegate = self // use delegate if needed

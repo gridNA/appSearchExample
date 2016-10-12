@@ -34,7 +34,7 @@ class VegetablesController: UIViewController {
     }
     
     private func setupNavigationController() {
-        navigationController?.navigationItem.title = "Vegetables"
+        title = "Vegetables"
         navigationController?.navigationBar.isTranslucent = false
     }
     
